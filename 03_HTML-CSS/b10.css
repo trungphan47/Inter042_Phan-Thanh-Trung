@@ -1,0 +1,23 @@
+table,td,tr{
+
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+.head{
+    list-style:circle;
+    color: red;
+    font-weight: bold;
+}
+.table-danger{
+font-size: 30px;
+text-align: right;
+}
+.table-warning{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+img{
+    width: 200px;
+    height: 150px;
+}

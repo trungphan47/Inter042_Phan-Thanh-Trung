@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b13.css">
+</head>
+
+<body>
+    <form action="">
+        <table style="width: 25%;">
+            <caption style="font-size: 20px; color:blue;"><b>ĐĂNG KÍ DU LỊCH</b></caption>
+            <tr>
+                <td style="color: seagreen;">Họ tên</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td style="color: seagreen;">Địa chỉ</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td style="color: seagreen;">Điện thoại</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td style="color: seagreen;">Khách Việt Nam</td>
+                <td><input type="checkbox" >                    
+                </td>
+            </tr>
+            <tr>
+                <td style="color: seagreen;">Chọn tour</td>
+                <td><select name="" id="">
+                        <option value="Giáo viên">Huế-Đà Nẵng</option>
+                        <option value="Học sinh">Huế-HCM</option>
+                        <option value="Sinh viên">Đà Nẵng-Quảng Nam</option>
+                        <option value="Nhân viên">Hà Nội-SG</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <fieldset style="width: 298px;">
+                    <legend style="color: seagreen;" >Số lượng đoàn khách</legend>
+                    <label for="" style="color: seagreen;">Người lớn</label>
+                    <input type="number" style="width: 50px;" class="num">
+                    <label for="" style="color: seagreen;">Trẻ em</label>
+                    <input type="number" style="width: 50px;" class="num">
+                </fieldset>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="color: seagreen;">
+                    Ghi chú thêm
+                </td>
+                <td><textarea name="" id="" cols="22" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"> <button type="button" onclick="funGetInfo()"> <b>Đồng ý</b> </button></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="inf" style="color: seagreen; text-align: center;"></td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function funGetInfo(){
+            document.getElementById("inf").innerHTML="Bạn đã đăng kí thành công";
+        }
+    </script>
+</body>
+
+</html>

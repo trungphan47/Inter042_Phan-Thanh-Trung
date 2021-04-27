@@ -1,0 +1,31 @@
+div.tieude{
+    text-align: center;
+    border: double burlywood;
+}
+.firstw{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+div.doan1 p{
+    display: inline;
+}   
+.bth{
+    text-align: right;
+    padding-right: 10px;
+    background-color: sandybrown;
+    color: white;
+    font-size: 30px;
+}
+i{
+    background-color: yellow;
+}
+b{
+    color: red;
+}
+div.doan2 p{
+    display: inline;
+}
+.doan2{
+    text-align: right;
+}

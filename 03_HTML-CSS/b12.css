@@ -1,0 +1,6 @@
+table,td,tr{
+
+    border: 1px solid orange;
+    border-collapse: collapse;
+    background-color: rgb(121, 230, 121);
+}

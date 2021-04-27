@@ -1,0 +1,22 @@
+h1{
+
+    text-align: center;
+    color: teal;
+}
+.all{
+
+  background-image: url(https://hellohoa.com/wp-content/uploads/2019/01/hinh-anh-hoa-vu-tru.jpg);
+ height: 100%; 
+  background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.doan1{
+    color: white;
+    background-color: teal;
+  font-weight: 600;
+  font-style: italic;
+}
+p{
+    color: teal;
+}

@@ -1,0 +1,26 @@
+div.all{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    justify-content: center;
+   
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+div.right{
+    width: 60%;
+    margin-left: 30px;
+}
+h2{
+    text-align: center;
+    color: peru;
+}
+div.tong{
+    background-color: gainsboro;
+}
+table, th ,td{
+    border: 1px solid steelblue;
+    border-collapse: collapse;
+}

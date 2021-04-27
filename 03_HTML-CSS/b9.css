@@ -1,0 +1,12 @@
+table, tr ,td,th{
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+
+thead{
+color: white;
+    background-color: red;
+}
+td{
+    text-align: center;
+}
